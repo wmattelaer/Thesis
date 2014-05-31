@@ -339,7 +339,7 @@ public class Main {
 		}
 		
 		
-		AbstractParser cParser = new BeliefParserProblog(parser, model);
+		AbstractParser cParser = new BeliefParser(parser, model, true);
 		
 		try {
 			CustomTester cTester = new CustomTester(cParser, new File(testFile));

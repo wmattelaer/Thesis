@@ -5,7 +5,9 @@ This is the code that accompanied my thesis "Converse with a robot: Improving se
 * [Stanford Core-NLP](http://nlp.stanford.edu/software/corenlp.shtml)
 * [SemEval-2014 Task 6 Java API](http://alt.qcri.org/semeval2014/task6/index.php?id=data-and-tools)
 * [The University of Washington Semantic Parsing Framework](https://bitbucket.org/yoavartzi/spf)
-* [Apache Commons Math](http://commons.apache.org/proper/commons-math/)
+* [Apache Commons Math](http://commons.apache.org/proper/commons-math/) (Necessary when using the probabilistic belief)
+* [ProbLog](http://dtai.cs.kuleuven.be/problog/) (Necessary when using the probabilistic belief)
+* [SWI Prolog](http://www.swi-prolog.org) (Optional)
 
 ## Usage
 (The instructions below are when using Eclipse)
