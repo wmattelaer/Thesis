@@ -86,7 +86,7 @@ public class MainDeterministic {
 	private static boolean trainModel = false;
 	private static int beliefParser = 0;
 	private static String dataPath = "trial_data";
-	private static boolean detLexicon = true;
+	private static boolean detLexicon = false;
 	private static int iterations = 1;
 
 	public static void main(String[] args) {
@@ -108,10 +108,10 @@ public class MainDeterministic {
 		}
 		
 		context = System.getProperty("detLexicon");
-		if (context == null || context.equals("true")) {
-			detLexicon = true;
-		} else {
+		if (context == null) {
 			detLexicon = false;
+		} else {
+			detLexicon = true;
 		}
 		
 		context = System.getProperty("iterations");
