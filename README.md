@@ -68,3 +68,5 @@ The following arguments should be passed along when executing:
 * The expected value of the guassian that will be used to generate probabilities for the new (wrong) facts in the belief
 * The variance of the guassian that will be used to generate probabilities for the new (wrong) facts in the belief
 
+An example is:
+``java -jar thesis.jar resources/ test.ccg model evaluation_data/ ~/Desktop/ ~/Downloads/problog2/src/problog.py environment-prob.pl scene.pl 0.85 0.3 0.25 0.15 0.3`
